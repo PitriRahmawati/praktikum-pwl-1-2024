@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Latihan Tailwind CSS</title>
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col items-center justify-center">
+   <section id="title" class="mb-8 text-center">
+      <h1 class="text-3xl font-bold">Todo List Application</h1>
+   </section>
+   <section id="input" class="flex space-x-4 mb-6">
+      <input type="text" name="assignment" id="assignment" 
+             class="p-2 rounded border border-gray-500 bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+             placeholder="Inputkan tugas yang akan dikerjakan ...">
+      <input type="button" id="btn-tambah" value="TAMBAH"
+             class="px-4 py-2 rounded bg-blue-400 hover:bg-blue-600 text-white font-bold cursor-pointer">
+   </section>
+<section id="output" class="mt-8 w-full max-w-md text-white bg-white p-4 rounded-lg shadow-lg">
+        <!-- Konten todo list akan muncul di sini -->
+    </section>
+
+      </div>
+   </section>
+   <script src="main.js"></script>
+</body>
+</html>
